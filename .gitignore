@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Flutter Build Files
+/build/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Environment Variables
+.env
+
+# Other Unnecessary Files
+.DS_Store
+Thumbs.db
+*.log
