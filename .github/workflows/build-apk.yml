@@ -1,4 +1,8 @@
-name: Build APK
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          path: school_management_app/build/app/outputsname: Build APK
 
 on:
   push:
@@ -38,3 +42,9 @@ jobs:
         with:
           name: app-release
           path: school_management_app/build/app/outputs/flutter-app-release.apk
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          path: school_management_app/build/app/outputs
+
